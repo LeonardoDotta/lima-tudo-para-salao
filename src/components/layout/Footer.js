@@ -7,7 +7,12 @@ function Footer() {
     <footer className={styles.footer}>
         <ul className={styles.social_list}>
             <li><FaFacebook /></li>
+            <a href='https://www.instagram.com/leo_dotta26'
+            target="_blank"
+            body="hello world"
+            rel="noopener noreferrer">
             <li><FaInstagram /></li>
+            </a>
             <li><FaLinkedin /></li>
         </ul>
         <p className={styles.copy_right}><span>Deusdete Store</span> &copy; 2023</p>
