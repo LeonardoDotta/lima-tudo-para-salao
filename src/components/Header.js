@@ -1,3 +1,5 @@
+import Products from "./Products"
+
 function Header () {
     return (
         <div>
@@ -9,3 +11,5 @@ function Header () {
     </div>
     )
 }
+
+export default Header
