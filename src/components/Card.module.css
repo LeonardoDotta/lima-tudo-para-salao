@@ -1,20 +1,3 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: Helvetica;
-}
-
-/* Cabeçalho */
-header {
-    background-color: #3db36b;
-    color: #fff;
-    padding: 15px;
-    text-align: center;
-    border-bottom: 3px solid #0f642f;
-}
-
-/* Grid de Produtos */
 .container {
     background-color: #eee;
     min-height: 60vh;
@@ -42,27 +25,27 @@ header {
 }
 
 #img-1 {
-    background-image: url('./img/img1.jpg');
+    background-image: url('../img/img1.jpg');
 }
 
 #img-2 {
-    background-image: url('./img/img2.jpeg');
+    background-image: url('../img/img2.jpeg');
 }
 
 #img-3 {
-    background-image: url('./img/img3.jpeg');
+    background-image: url('../img/img3.jpeg');
 }
 
 #img-4 {
-    background-image: url('./img/img4.webp');
+    background-image: url('../img/img4.webp');
 }
 
 #img-5 {
-    background-image: url('./img/img5.jpg');
+    background-image: url('../img/img5.jpg');
 }
 
 #img-6 {
-    background-image: url('./img/img6.jpeg');
+    background-image: url('../img/img6.jpeg');
 }
 
 h3 {
@@ -96,13 +79,4 @@ h3 {
 
 .btn:hover {
     background-color: #0f642f;
-}
-
-/* Footer */
-footer{
-    background-color: #3db36b;
-    color: #fff;
-    border-top: 3px solid #0f642f;
-    text-align: center;
-    padding: 80px;
 }
