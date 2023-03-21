@@ -6,7 +6,6 @@ import Footer from './components/layout/Footer';
 import Whatsapp from './components/Whatsapp';
 import Home from './components/pages/Home';
 import Header from './components/Header'
-import Products from "./components/Products";
 
 function App() {
   return (

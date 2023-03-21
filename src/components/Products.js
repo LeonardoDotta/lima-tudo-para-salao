@@ -2,8 +2,8 @@ import Card from "./Card"
 
 function Products() {
     return (
-        <main class="container">
-            <section class="products-container">
+        <main className="container">
+            <section className="products-container">
                 <Card nome='Produto 1' descricao='1' preco='100' id='img-1'/>
                 <Card nome='Produto 2' descricao='2' preco='100' id='img-2'/>
                 <Card nome='Produto 3' descricao='3' preco='100' id='img-3'/>
