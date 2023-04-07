@@ -3,9 +3,9 @@ import logo from './logo.svg';
 import './App.css';
 import './Deusdete.css';
 import Footer from './components/layout/Footer';
-import Whatsapp from './components/Whatsapp';
-import Home from './components/pages/Home';
-import Header from './components/Header'
+import Whatsapp from './components/pages/whatsapp/Whatsapp';
+import Home from './components/pages/home/Home';
+import Header from './components/layout/Header'
 
 function App() {
   return (

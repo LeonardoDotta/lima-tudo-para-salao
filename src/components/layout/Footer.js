@@ -1,11 +1,11 @@
-import {FaFacebook, FaInstagram, FaLinkedin} from 'react-icons/fa'
+import {FaFacebook, FaInstagram} from 'react-icons/fa'
 
-import styles from './Footer.module.css'
+import './Footer.css'
 
 function Footer() {
     return (
-    <footer className={styles.footer}>
-        <ul className={styles.social_list}>
+    <footer className='footer'>
+        <ul className='social_list'>
             <li><FaFacebook /></li>
             <a href='https://www.instagram.com/leo_dotta26'
             target="_blank"
@@ -13,9 +13,8 @@ function Footer() {
             rel="noopener noreferrer">
             <li><FaInstagram /></li>
             </a>
-            <li><FaLinkedin /></li>
         </ul>
-        <p className={styles.copy_right}><span>Deusdete Store</span> &copy; 2023</p>
+        <p className='copy_right'><span>Deusdete Store</span> &copy; 2023</p>
     </footer>
   )
 }
