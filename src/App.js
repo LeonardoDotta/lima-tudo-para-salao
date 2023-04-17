@@ -11,7 +11,7 @@ function App() {
     <Router>
       <Header />
     <Routes>
-        <Route element={<Home nome='Deusdete Store'/> } path="/">
+        <Route element={<Home nome='Lima - Tudo para salão'/> } path="/">
         </Route>
         <Route element={<Whatsapp />} path="/whatsapp">
         </Route>
