@@ -1,4 +1,4 @@
-import {FaFacebook, FaInstagram} from 'react-icons/fa'
+import { FaInstagram } from 'react-icons/fa'
 
 import './Footer.css'
 
@@ -6,8 +6,7 @@ function Footer() {
     return (
     <footer className='footer'>
         <ul className='social_list'>
-            <li><FaFacebook /></li>
-            <a href='https://www.instagram.com/leo_dotta26'
+            <a className='social_list_instagram' href='https://www.instagram.com/limatudoparasalao'
             target="_blank"
             body="hello world"
             rel="noopener noreferrer">
