@@ -40,7 +40,8 @@ function Products() {
                 ............................................................
                 ............................................................
                 ............................................................
-                ............................................................' preco='90,00' parcelas='' preço2='' id='img-5'/>
+                ............................................................' 
+                      preco='90,00' parcelas='10' preço2='9,00' id='img-5'/>
 
                 <Card nome='Combo 1' descricao='1 galão de shampoo + 1 galão de condicionador + um pacote de toalha + 
                                                 1 ducha mágica .......................
@@ -50,11 +51,14 @@ function Products() {
                                                  
                       preco='345,00' parcelas='10' preço2='34,50' id='img-6'/>
 
-                <Card nome='Combo 2' descricao='3 escovas - De R$200,00 por' preco='156,00' id='img-7'/>
+                <Card nome='Combo 2' descricao='3 escovas - De R$200,00 por' 
+                      preco='156,00' parcelas='12' preço2='13,00' id='img-7'/>
 
-                <Card nome='Combo 3' descricao='5 escovas - De R$350,00 por' preco='250,00' id='img-8'/>
+                <Card nome='Combo 3' descricao='5 escovas - De R$350,00 por' 
+                      preco='250,00' parcelas='12' preço2='20,80' id='img-8'/>
 
-                <Card nome='Combo 4' descricao='3 escovas - De R$300,00 por' preco='199,00' id='img-9'/>
+                <Card nome='Combo 4' descricao='3 escovas - De R$300,00 por' 
+                      preco='199,00' parcelas='12' preço2='16,50' id='img-9'/>
 
                 <Card nome='Esterelizador de escovas' descricao='1 esterelizador para escovas' preco='465,00' 
                       parcelas='12' preço2='38,75' id='img-10'/>
