@@ -1,0 +1,59 @@
+.product-image {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+    min-width: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#img-1 {
+    background-image: url('../../img/prod1.jpg');
+}
+
+#img-2 {
+    background-image: url('../../img/prod2.jpg');
+}
+
+#img-3 {
+    background-image: url('../../img/prod3.jpg');
+}
+
+#img-4 {
+    background-image: url('../../img/prod4.jpg');
+}
+
+#img-5 {
+    background-image: url('../../img/prod5.jpg');
+}
+
+#img-6 {
+    background-image: url('../../img/prod6.jpg');
+}
+
+#img-7 {
+    background-image: url('../../img/prod7.jpg');
+}
+
+#img-8 {
+    background-image: url('../../img/prod8.jpg');
+}
+
+#img-9 {
+    background-image: url('../../img/prod9.jpg');
+}
+
+#img-10 {
+    background-image: url('../../img/prod10.jpg');
+}
+
+.products-div {
+    padding: 40px;
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

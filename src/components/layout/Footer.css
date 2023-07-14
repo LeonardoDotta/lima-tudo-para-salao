@@ -7,8 +7,9 @@
 
 .social_list {
     display: flex;
-    justify-content: center;
     list-style-type: none;
+    justify-content: center;
+    padding-right: 40px;
 }
 
 .social_list li {
@@ -29,6 +30,7 @@
 }
 .copy_right {
     margin-top: 2em;
+    /* padding-left: 30px; */
 }
 
 .copy_right span {

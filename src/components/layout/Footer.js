@@ -13,7 +13,7 @@ function Footer() {
             <li><FaInstagram /></li>
             </a>
         </ul>
-        <p className='copy_right'><span>Deusdete Store</span> &copy; 2023</p>
+        <p className='copy_right'><span>Lima - Tudo para salão</span> &copy; 2023</p>
     </footer>
   )
 }
